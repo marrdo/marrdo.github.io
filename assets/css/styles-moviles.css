@@ -421,4 +421,32 @@
 }
 
 
+
+}
+
+@media screen and (max-width: 420px) {
+
+.card-proyecto{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-proyecto img{
+  width: 300px;
+}
+.card-proyecto p{
+  width: 30ch;
+}
+.proyectos{
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  width: 35ch;
+}
 }
